@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const sample1_1 = require("@uewtwo/sample1");
+const sample2_1 = require("@uewtwo/sample2");
+console.log('=== Example App using @uewtwo packages ===\n');
+console.log('Package versions:');
+console.log(`@uewtwo/sample1: ${sample1_1.VERSION}`);
+console.log(`@uewtwo/sample2: ${sample2_1.VERSION}\n`);
+console.log('--- Testing @uewtwo/sample1 ---');
+console.log((0, sample1_1.greetFromSample1)('Developer'));
+console.log(`Addition result: ${(0, sample1_1.addNumbers)(5, 3)}\n`);
+console.log('--- Testing @uewtwo/sample2 ---');
+console.log((0, sample2_1.greetFromSample2)('Developer'));
+console.log(`Multiply and add result: ${(0, sample2_1.multiplyAndAdd)(2, 3, 4)}`);
+console.log('(2 + 3) * 4 = 20\n');
+console.log('--- Combined functionality ---');
+console.log((0, sample2_1.combinedGreeting)('World'));

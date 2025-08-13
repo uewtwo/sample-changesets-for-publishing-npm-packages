@@ -1,0 +1,28 @@
+{
+  "name": "@uewtwo/sample1",
+  "version": "0.0.1",
+  "description": "Sample package 1 for changesets demo",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Test for sample1\""
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uewtwo/sample-changesets-for-publishing-npm.git",
+    "directory": "packages/sample1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "example-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example app using @uewtwo/sample1 and @uewtwo/sample2",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npm run build && npm run start",
+    "test": "echo \"Test for example-app\""
+  },
+  "dependencies": {
+    "@uewtwo/sample1": "^0.0.1",
+    "@uewtwo/sample2": "^0.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.5"
+  }
+}
