@@ -1,6 +1,6 @@
 {
   "name": "@uewtwo/sample2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sample package 2 for changesets demo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,7 +23,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@uewtwo/sample1": "^0.0.1"
+    "@uewtwo/sample1": "^0.1.0"
   },
   "devDependencies": {
     "typescript": "^5.3.3"

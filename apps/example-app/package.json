@@ -11,8 +11,8 @@
     "test": "echo \"Test for example-app\""
   },
   "dependencies": {
-    "@uewtwo/sample1": "^0.0.1",
-    "@uewtwo/sample2": "^0.0.1"
+    "@uewtwo/sample1": "^0.1.0",
+    "@uewtwo/sample2": "^0.0.2"
   },
   "devDependencies": {
     "typescript": "^5.3.3",

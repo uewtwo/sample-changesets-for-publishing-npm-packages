@@ -1,6 +1,6 @@
 {
   "name": "@uewtwo/sample1",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Sample package 1 for changesets demo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
